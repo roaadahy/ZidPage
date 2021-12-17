@@ -1,0 +1,108 @@
+
+.section__header {
+    color: #8d5da7;
+}
+
+.section__body {
+    color: black;
+}
+
+.section__btn {
+    background-color: #8d5da7;
+    color: rgb(251,180,49);
+    border-radius: 0.7rem !important;
+    width: 18rem;
+    
+}
+.over {
+    z-index: 1;
+}
+.arb-div {
+    margin-top: 2.5rem;
+}
+
+button span {
+    animation-name: arrowMove;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowMove {
+    from {
+        transform: translateX(-1px);
+        text-shadow: -1px 0px 0px #cacaca;
+    }
+    to {
+        transform: translateX(0px);
+        text-shadow: none;
+    }
+}
+
+.item img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.app__card{
+    background-color: rgb(247,247,247);
+    border-radius: 1rem !important;
+    margin: 1rem;
+   
+}
+
+.komra__icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+}
+.firstdots{
+    left: 14%;
+    top: -17%;
+    z-index: -1;
+}
+.dots {
+    left: -9%;
+    top: 1%;
+    z-index: -1;
+}
+
+.circle {
+    right: -7%;
+    bottom: -3.5rem;
+    z-index: -1;
+}
+
+.firstcircle {
+    right: 18%;
+    bottom: -4.5rem;
+    z-index: -1;
+}
+
+.gif {
+    border-radius: 2rem !important;
+    width: 700px;
+    height: 400px;
+  }
+ 
+
+ul {
+    list-style: none;
+}
+.all__you__need {
+    margin-top: 15em;
+    padding-top: 6em;
+    padding-bottom: 3.5em;
+    margin-bottom: 15em;
+    background-color: rgb(250,250,252);
+}
+
+.app__card p {
+    font-size: x-small;
+}
+.app__card h5 {
+    color: #8d5da7;
+}
+.stars {
+    font-size: x-small;
+
+}

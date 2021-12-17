@@ -1,0 +1,8 @@
+#navbar__container {
+    float: right;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+#logo {
+    margin-right: 10px;
+}
