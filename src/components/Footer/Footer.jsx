@@ -30,7 +30,7 @@ const Footer = () => {
                     <p>&nbsp;</p>
                 </div>
 
-                <div className="d-flex justify-content-between text-right px-5 footer-div fixed-bottom">
+                <div className="d-flex justify-content-between text-right px-5 footer-div">
                     <span className="py-2 px-2 chat ">
                         <img src={chaticon} className="fs-4 footer-img rounded-circle" />
                     </span>
